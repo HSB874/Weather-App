@@ -34,7 +34,7 @@ const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeather API key
 
 ## Live Demo
 
-Check out the live demo here: [Weather App Demo]()
+Check out the live demo here: [Weather App Demo](https://hsb874.github.io/Weather-App/)
 
 ## License
 

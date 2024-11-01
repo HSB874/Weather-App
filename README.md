@@ -33,7 +33,7 @@ To use the OpenWeather API, sign up and get your API key. Replace the API Key in
 
 ```bash
 const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeather API key
-
+```
 ## Live Demo
 
 Check out the live demo here: [Weather App Demo](https://hsb874.github.io/Weather-App/)

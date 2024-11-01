@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    background: #f0f0f0; /* Light background */
+    color: #333; /* Default text color for light mode */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: white; /* Container background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.weather-info {
+    margin-top: 20px;
+    display: none;
+}
+
+.dark-theme {
+    background-color: #333; /* Dark background */
+    color: white; /* Text color for dark theme */
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.loading {
+    display: none;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Additional styles for dark mode */
+.dark-theme .container {
+    background: #444; /* Darker background for container */
+    color: white; /* Ensure container text is visible in dark mode */
+}
+
+.dark-theme button {
+    background-color: #555; /* Button color in dark mode */
+    color: white; /* Button text color in dark mode */
+}
+
+.dark-theme button:hover {
+    background-color: #007BFF; /* Maintain hover effect for buttons */
+    color: white; /* Ensure text remains white on hover */
+}

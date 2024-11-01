@@ -22,14 +22,16 @@ A simple web application that provides real-time weather information for any cit
    git clone https://github.com/yourusername/Weather-App.git
    
 2. Navigate to the project directory:
+   ```bash
    cd Weather-App
 
-3. Open index.html in your browser.
+4. Open index.html in your browser.
 
 ## API Key
 
 To use the OpenWeather API, sign up and get your API key. Replace the API Key in script.js with your key:
 
+```bash
 const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeather API key
 
 ## Live Demo
